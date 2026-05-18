@@ -1,4 +1,4 @@
-FROM ghcr.io/sparfenyuk/mcp-proxy:v0.11.0
+FROM ghcr.io/sparfenyuk/mcp-proxy:v0.12.0
 
 # Install uv and uvx
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
